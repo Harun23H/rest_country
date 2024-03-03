@@ -13,6 +13,7 @@ const createCard = (items) => {
         <small>Population: <span> ${items.population}</span></small>
         <small>Region: <span> ${items.region}</span></small>
         <small>Capital: <span> ${items.capital}</span></small>
+        <a href="./details.html">learn more...</a>
     </div>
 </div>`;
   card.innerHTML = cardContent;

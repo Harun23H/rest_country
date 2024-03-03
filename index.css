@@ -96,10 +96,17 @@ form {
   flex-direction: column;
   background-color: #f2f2f2;
   padding: 23px 25px;
-  height: 150px;
+  height: 170px;
   border-radius: 5px;
 }
 
+.cardText>a{
+    color: #000000b7;
+    font-weight: 100;
+    font-size: .9em;
+    cursor: pointer;
+
+}
 .cardText > p {
   margin-bottom: 15px;
   font-weight: 900;
@@ -202,6 +209,17 @@ form {
   text-decoration: none;
   color: #000;
   text-align: center;
+}
+
+.back{
+    margin-bottom: 50px;
+}
+
+.back>a{
+   text-decoration: none;
+   color: #000;
+   font-size: 1.2em;
+   cursor: pointer;
 }
 
 @media only screen and (min-width: 375px) and (max-width: 600px) {

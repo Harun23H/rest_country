@@ -6,18 +6,7 @@
     <title>details</title>
     <link rel="stylesheet" href="./index.css">
 </head>
-<body>
-    
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>rest countries</title>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        
+<body>   
         <section id="wrapper">
             <nav>
                 <div class="nav">
@@ -27,7 +16,7 @@
             </nav>
             <div class="wrapper">
                 <form>
-                   <input type="search" name="Country" id="Country" placeholder="Search for a country"> 
+                   <input type="search" name="Country" id="search" placeholder="Search for a country"> 
                    <select name="Region" id="Region">
                     <option value="Africa">Africa</option>
                     <option value="America">America</option>
@@ -39,35 +28,8 @@
 
                 <section id="details">
                     <div class="back"><a href="./index.html">Back</a></div>
-                    <div class="details">
-                        <div class="flag">
-                            <img src="./other files/6392ABC5-FD8B-4504-85F7-B1ECC1995194_4_5005_c.jpeg" alt="flag">
-                        </div>
-                        <div class="flag_details">
-                            <div class="first_col">
-                                <div class="col_1">
-                                    <p>Belgium</p>
-                                    <small>Native Name: <span> Belgie</span></small>
-                                    <small>Population: <span> 664677484636</span></small>
-                                    <small>Europe: <span> Europe</span></small>
-                                    <small>Sub Region: <span> Western Europe</span></small>
-                                    <small>Capital: <span> Brussels</span></small>
-                                </div>
-                                <div class="col_2">
-                                    <small>Top Level Domain: <span> .be</span></small>
-                                    <small>Currencies: <span> Euro</span></small>
-                                    <small>Language: <span> Dutch, French, German</span></small>
-                                </div>
-                            </div>
-                            <div class="second_col">
-                                    <p>Border Countries:</p>
-                                <div class="counties">
-                                    <button><a href="#">France</a></button>
-                                    <button><a href="#">Germany</a></button>
-                                    <button><a href="#">Netherlands</a></button>
-                                </div>
-                            </div>
-                        </div>
+                    <div id="cardWrapper">
+                        
                     </div>
                 </section>
             </div>
@@ -76,10 +38,3 @@
         <script src="./main.js"></script>
     </body>
     </html>
-
-
-
-
-
-</body>
-</html>

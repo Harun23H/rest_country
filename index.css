@@ -15,6 +15,7 @@
 #wrapper {
   width: 100%;
   margin: auto;
+  height: 100vh;
   background-color: #f3f8fb;
 }
 
@@ -34,7 +35,7 @@ nav {
 }
 
 .nav {
-    padding: 20px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,7 +50,7 @@ form {
   margin-top: 30px;
 }
 
-#Country {
+#search {
   padding: 15px 12px;
   width: 450px;
   border: none;
@@ -71,6 +72,11 @@ form {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 50px;
   margin-block: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 .card {
@@ -100,12 +106,11 @@ form {
   border-radius: 5px;
 }
 
-.cardText>a{
-    color: #000000b7;
-    font-weight: 100;
-    font-size: .9em;
-    cursor: pointer;
-
+.cardText > a {
+  color: #000000b7;
+  font-weight: 100;
+  font-size: 0.9em;
+  cursor: pointer;
 }
 .cardText > p {
   margin-bottom: 15px;
@@ -211,15 +216,15 @@ form {
   text-align: center;
 }
 
-.back{
-    margin-bottom: 50px;
+.back {
+  margin-bottom: 50px;
 }
 
-.back>a{
-   text-decoration: none;
-   color: #000;
-   font-size: 1.2em;
-   cursor: pointer;
+.back > a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2em;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 375px) and (max-width: 600px) {
@@ -293,11 +298,4 @@ form {
     grid-template-columns: 1fr;
     gap: 70px;
   }
-
-
-
-
-
-
-
 }
